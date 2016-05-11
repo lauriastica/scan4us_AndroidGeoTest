@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="md_green">#6ed141</color>
+    <color name="md_green_pressed">#92d100</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#C2c2c2</color>
+    <color name="md_white">#ffffff</color>
+    <color name="gen_texts">#4f4f4f</color>
+    <color name="md_blue_500">#42b3e1</color>
+    <color name="md_blue_600">#296495</color>
+
+</resources>
