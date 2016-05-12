@@ -22,15 +22,21 @@
         android:padding="16dp"
         android:layout_height="match_parent">
 
-        <EditText
+        <EditText android:drawableLeft="@drawable/ic_user"
+            android:layout_width="match_parent"
+            android:drawablePadding="16dp"
+            android:hint="Email"
+            android:layout_height="wrap_content" />
+
+        <EditText android:drawableLeft="@drawable/ic_pass"
+            android:hint="Password"
+            android:drawablePadding="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
+        <EditText android:drawableLeft="@drawable/ic_pass"
+            android:hint="Repeat password"
+            android:drawablePadding="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
