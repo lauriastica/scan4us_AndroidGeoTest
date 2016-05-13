@@ -1,4 +1,19 @@
 <resources>
     <string name="maps_key">AIzaSyBsEgtehXBSg7WqCBHZUgr7w4TkIr9ePpg</string>
     <string name="app_name">S4travel</string>
+
+
+    <!--textos en los botones-->
+    <string name="text_photo">Foto</string>
+    <string name="text_init_pulse">Iniciar</string>
+    <string name="text_heart">Pulso</string>
+    <string name="text_gps">GPS</string>
+    <string name="text_save">Guardar</string>
+    <string name="text_take_photo">Tomar foto</string>
+
+
+    <!--mensajes toast-->
+    <string name="message_saved">Foto guardada</string>
+    <string name="message_not_photo_taken">Foto no tomada</string>
+    <string name="message_not_saved_photo">Debe tomarse una foto</string>
 </resources>

@@ -2,8 +2,8 @@
 <resources>
 
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#42b3e1</color>
+    <color name="colorAccent">#adadad</color>
 
     <color name="md_green">#6ed141</color>
     <color name="md_green_pressed">#92d100</color>

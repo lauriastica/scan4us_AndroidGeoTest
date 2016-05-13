@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.ManagerPhotoActivity">
+
+
+
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:onClick="clickBton"
+            android:src="@drawable/icon_user2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView_Photo"
+            />
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+
+
+            <Button
+                android:onClick="clickBton"
+                android:drawableTop="@drawable/ic_photo_camera_white_36dp"
+                android:id="@+id/bton_take_repeat_photo"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+               android:src="@drawable/logo_scan4us2"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="56dp"/>
+
+            <Button
+                android:onClick="clickBton"
+                android:drawableTop="@drawable/ic_done_white_36dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_weight="1"
+                android:id="@+id/bton_save_photo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

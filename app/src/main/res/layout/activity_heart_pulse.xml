@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.scan4us.scan4usgeotest.activities.HeartPulseActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+
+<!--
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="0.5"
+                android:textSize="90sp" >
+            </TextView>
+
+            <SurfaceView
+                android:id="@+id/preview"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_margin="5sp"
+                android:layout_weight="0.5">
+            </SurfaceView>
+
+
+        </LinearLayout>
+
+        -->
+
+        <TextView
+            android:id="@+id/text_bpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="---"
+            android:textSize="28sp"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <SurfaceView
+            android:layout_above="@+id/txtvwStopWatch"
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+           >
+        </SurfaceView>
+
+
+            <ImageView
+                android:layout_below="@+id/toolbar"
+                android:src="@drawable/ic_heart_beat"
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                />
+
+    <Button
+        android:padding="2dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvwStopWatch"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
